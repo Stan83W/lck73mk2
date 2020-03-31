@@ -42,43 +42,35 @@
 
   </head>
   <body>
-    <!-- Intro + Header -->
-    <div class="loader">
-      <div id="preloadfont">.</div>
-      <div class="intro">
-          <div id="text"></div>
-      </div>
-    </div>
+
+
 
     <!-- Navbar -->
     <a name="home"></a>
-    <div class="custom-container">
+    <div class="nav-container">
         <div class="logo"><a href="index.html">LCK_73</a></div>
-        <div class="container-left">
-            <div class="lang media">
-              <ul class="ref-list">
-                <li>
-                  <a href="https://www.behance.net/lck73" target="_blank">Be</a>
-                </li>
-                <li>
-                  <a href="http://instagram.com/lck.73" target="_blank">In</a>
-                </li>
-                <li>
-                  <a href="http://facebook.com/lck73studio" target="_blank">Fa</a>
-                </li>
-              </ul>
-            </div>
-            <div class="right-upper-text">
-              We're an interactive<br>design<br>studio, available<br>for<br>inquiries
-            </div>
-            <!-- <div class="container-left-img"></div> -->
-            <div class="left-bottom-text">
-                <a href="mailto:lck73.studio@gmail.com">Contact</a>
-            </div>
+        <div class="lang media">
+          <ul class="ref-list">
+            <li>
+              <a href="https://www.behance.net/lck73" target="_blank">Be</a>
+            </li>
+            <li>
+              <a href="http://instagram.com/lck.73" target="_blank">In</a>
+            </li>
+            <li>
+              <a href="http://facebook.com/lck73studio" target="_blank">Fa</a>
+            </li>
+          </ul>
         </div>
-        <div class="container-right">
-          <a href="info.html" class="info-right">Info</a>
-        </div>
+    </div>
+
+    <!-- Sticky nav -->
+    <div id="menu">
+      <div class="menu-line">
+        <a href="#home">
+          <h4>LCK_73</h4>
+        </a>
+      </div>
     </div>
 
     <%= yield %>
