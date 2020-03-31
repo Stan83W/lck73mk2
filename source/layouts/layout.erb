@@ -2,43 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="author" content="Stanislas Wiart">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Stanislas Wiart">
 
-      <meta name="description" content="LCK_73 is a multidisciplinary studio. His services include art direction, graphic design, UI/UX and web development.">
-      <!-- stylesheet -->
-      <!-- <link rel="stylesheet" href="style.css"> -->
+    <meta name="description" content="LCK_73 is a multidisciplinary studio. His services include art direction, graphic design, UI/UX and web development.">
 
-      <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
-      <!-- bootstrap cdns -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- bootstrap cdns -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-      <!-- google fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet"/>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet"/>
 
-      <!-- for on scroll animations -->
-      <link rel="stylesheet" href="animate.css">
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- for on scroll animations -->
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-      <!-- SIMPLE PARALLAX -->
-      <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <!-- SIMPLE PARALLAX -->
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
 
-      <!-- ANIMEJS -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- ANIMEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
-      <!-- IONICONS -->
-      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- IONICONS -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-      <!-- JQUERY -->
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 
-      <!-- Blotter -->
-      <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
-    <!-- Use the title from a page's frontmatter if it has one -->
+    <!-- Blotter -->
+    <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
+
     <title><%= current_page.data.title || "LCK_73© - Digital Design & Identity" %></title>
     <%= stylesheet_link_tag "site" %>
 
@@ -46,24 +44,13 @@
   <body>
     <!-- Intro + Header -->
     <div class="loader">
-        <!-- <marquee direction="right" scrollamount="10"
-            >Digital studio based in Paris</marquee
-        >
-        <marquee direction="left" scrollamount="30"
-            >Art direction, graphic design, UI/UX</marquee
-        >
-        <marquee direction="right" scrollamount="20"
-            >Art direction, graphic design, UI/UX</marquee
-        >
-        <marquee direction="" scrollamount="40"
-            >Digital studio based in Paris</marquee
-        > -->
-        <div id="preloadfont">.</div>
-        <div class="intro">
-            <div id="text"></div>
-        </div>
+      <div id="preloadfont">.</div>
+      <div class="intro">
+          <div id="text"></div>
+      </div>
     </div>
 
+    <!-- Navbar -->
     <a name="home"></a>
     <div class="custom-container">
         <div class="logo"><a href="index.html">LCK_73</a></div>
@@ -95,6 +82,163 @@
     </div>
 
     <%= yield %>
+
+    <!-- footer starts here -->
+    <div class="hr footer">
+      <div class="row"></div>
+    </div>
+    <a name="info"></a>
+    <div class="footer">
+      <div>
+        <div class="mini-whitespace"></div>
+          <div class="collab">
+            <div class="row">
+              <div class="col-lg-4">
+                <h6 class="footer-title wow fadeInUp">Info</h6>
+              </div>
+              <div class="col-lg-4">
+                <p class="wow fadeInUp desc">
+                LCK_73 is a multidisciplinary studio.
+                <br>
+                His services include art direction, graphic design, UI/UX and web development.
+                <br>
+                <br>
+                Born in Paris in 2017, the studio has an active part in contemporary design culture and its work has a lasting influence on the understanding of contemporary brands and modern corporate communication.
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <p class="wow fadeInUp desc">
+                LCK_73
+                <br>
+                <a href="https://www.behance.net/lck73" target="_blank">www.behance.net/lck73</a>
+                <br>
+                <a href="http://www.lck73.com">www.lck73.com</a>
+                <br>
+                <br>
+                STANISLAS WIART
+                <br>
+                <a href="https://www.behance.net/stanislas-wiart" target="_blank">www.behance.net/stanislas-wiart</a>
+                <a href="http://www.stanislaswiart.com" target="_blank">www.stanislaswiart.com</a>
+                <br>
+                <br>
+                RAVINA OLTEINN
+                <br>
+                <a href="https://www.behance.net/Ravina-Olteinn" target="_blank">www.behance.net/ravina-olteinn</a>
+                <a href="https://www.ravinaolteinn.com" target="_blank">www.ravinaolteinn.com</a>
+                </p>
+              </div>
+            </div>
+            <div class="mini-whitespace"></div>
+            <div class="hr">
+              <div class="row"></div>
+            </div>
+            <div class="mini-whitespace"></div>
+            <div class="mini-whitespace"></div>
+            <div class="row">
+              <div class="col-lg-4">
+                <h6 class="footer-title wow fadeInUp">References</h6>
+              </div>
+              <div class="col-lg-4">
+                <p class="wow fadeInUp desc">
+                Trendlist
+                <a href="https://www.trendlist.org/images/coll-part" target="_blank">__1</a>
+                <a href="https://www.trendlist.org/images/calla-house-posters" target="_blank">__2</a>
+                <a href="https://www.trendlist.org/images/girl-power-fest-2017" target="_blank">__3</a>
+                <a href="https://www.trendlist.org/images/girl-power-fest-2018" target="_blank">__4</a>
+                <br>
+                Klikkentheke
+                <a href="https://klikkentheke.com/websites/time-architecture/" target="_blank">__1</a>
+                <br>
+                Fonts in use
+                <a href="https://fontsinuse.com/uses/25969/time-architecture" target="_blank">__1</a>
+                <br>
+                <br>
+                Available for work inquiries,
+                <br>
+                we'll be glad to learn about your project.
+                <br>
+                <br>
+                <a href="mailto:lck73.studio@gmail.com" target="_blank">lck73.studio(at)gmail.com</a>
+                <br>
+                <a href="mailto:stanislas.wiart@gmail.com" target="_blank">stanislas.wiart(at)gmail.com</a>
+                <br>
+                <a href="mailto:ravina.olteinn@gmail.com" target="_blank">ravina.olteinn(at)gmail.com</a>
+                </p>
+              </div>
+              <div class="col-lg-4">
+                <p class="wow fadeInUp desc">
+                  CLIENTS:<br>
+                  LVMH<br>
+                  Dior Parfums<br>
+                  Nomasei<br>
+                  Carolina Ritzler<br>
+                  Danone<br>
+                  Sephora<br>
+                  Kenzo<br>
+                  Vacheron Constantin<br>
+                  Virginie T.<br>
+                  Place
+                </p>
+              </div>
+            </div>
+          </div>
+
+            <div class="mini-whitespace"></div>
+
+            <div class="hr">
+              <div class="row"></div>
+            </div>
+
+            <div class="mini-whitespace"></div>
+            <br>
+
+            <div class="info">
+              <div class="row">
+                <div class="col-lg-3" id="personal">
+                  <p class="wow fadeInUp">
+                    <a href="contact.html">CONTACT</a>
+                    <br>
+                    <a href="https://www.google.fr/maps/place/73+Rue+Lamarck,+75018+Paris/@48.890049,2.3347553,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e5a6e9dcf39:0xa5187b5095148055!8m2!3d48.890174!4d2.3370119" target="_blank">FIND US</a>
+                    <br>
+                    <a href="info.html">INFO</a>
+                  </p>
+                  <br>
+                </div>
+                <div class="col-lg-3" id="media">
+                  <p class="wow fadeInUp" data-wow-delay="0.2s">
+                    OUR OFFICE
+                    <a href="https://www.google.fr/maps/place/73+Rue+Lamarck,+75018+Paris/@48.890049,2.3347553,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e5a6e9dcf39:0xa5187b5095148055!8m2!3d48.890174!4d2.3370119" target="_blank">
+                    <br>
+                    73 RUE LAMARCK
+                    <br>
+                    75018 PARIS
+                    </a>
+                  </p>
+                  <br>
+                </div>
+                <div class="col-lg-3" id="address">
+                  <p class="wow fadeInUp" data-wow-delay="0.4s">
+                    <a href="https://WWW.BEHANCE.NET/LCK73" target="_blank">BEHANCE.NET/LCK73</a>
+                    <br>
+                    <a href="https://WWW.INSTAGRAM.COM/LCK.73" target="_blank">INSTAGRAM.COM/LCK.73</a>
+                    <br>
+                    <a href="https://WWW.FACEBOOK.COM/LCK73STUDIO" target="_blank">FACEBOOK.COM/LCK73STUDIO</a>
+                  </p>
+                  <br>
+                </div>
+                <div class="col-lg-3" id="address">
+                  <p class="wow fadeInUp" data-wow-delay="0.4s">
+                    © 2020 - LCK_73
+                    <br>
+                    ALL RIGHTS RESERVED
+                  </p>
+                </div>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="mini-whitespace"></div>
+    <!-- footer ends here -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
     <script src="javascripts/site.js"></script>
