@@ -1,16 +1,101 @@
 <!doctype html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="author" content="Stanislas Wiart">
+
+      <meta name="description" content="LCK_73 is a multidisciplinary studio. His services include art direction, graphic design, UI/UX and web development.">
+      <!-- stylesheet -->
+      <!-- <link rel="stylesheet" href="style.css"> -->
+
+      <link rel="icon" type="image/png" href="images/favicon.png">
+
+      <!-- bootstrap cdns -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet"/>
+
+      <!-- for on scroll animations -->
+      <link rel="stylesheet" href="animate.css">
+      <script src="wow.min.js"></script>
+
+      <!-- SIMPLE PARALLAX -->
+      <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
+      <!-- ANIMEJS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+      <!-- IONICONS -->
+      <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+      <!-- JQUERY -->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+      <!-- Blotter -->
+      <script src="https://cdn.rawgit.com/bradley/Blotter/master/build/blotter.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Blotter/0.1.0/materials/rollingDistortMaterial.min.js"></script>
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "LCK_73© - Digital Design & Identity" %></title>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+
   </head>
   <body>
+    <!-- Intro + Header -->
+    <div class="loader">
+        <!-- <marquee direction="right" scrollamount="10"
+            >Digital studio based in Paris</marquee
+        >
+        <marquee direction="left" scrollamount="30"
+            >Art direction, graphic design, UI/UX</marquee
+        >
+        <marquee direction="right" scrollamount="20"
+            >Art direction, graphic design, UI/UX</marquee
+        >
+        <marquee direction="" scrollamount="40"
+            >Digital studio based in Paris</marquee
+        > -->
+        <div id="preloadfont">.</div>
+        <div class="intro">
+            <div id="text"></div>
+        </div>
+    </div>
+
+    <a name="home"></a>
+    <div class="custom-container">
+        <div class="logo"><a href="index.html">LCK_73</a></div>
+        <div class="container-left">
+            <div class="lang media">
+              <ul class="ref-list">
+                <li>
+                  <a href="https://www.behance.net/lck73" target="_blank">Be</a>
+                </li>
+                <li>
+                  <a href="http://instagram.com/lck.73" target="_blank">In</a>
+                </li>
+                <li>
+                  <a href="http://facebook.com/lck73studio" target="_blank">Fa</a>
+                </li>
+              </ul>
+            </div>
+            <div class="right-upper-text">
+              We're an interactive<br>design<br>studio, available<br>for<br>inquiries
+            </div>
+            <!-- <div class="container-left-img"></div> -->
+            <div class="left-bottom-text">
+                <a href="mailto:lck73.studio@gmail.com">Contact</a>
+            </div>
+        </div>
+        <div class="container-right">
+          <a href="info.html" class="info-right">Info</a>
+        </div>
+    </div>
+
     <%= yield %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="javascripts/site.js"></script>
   </body>
 </html>
