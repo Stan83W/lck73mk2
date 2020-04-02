@@ -106,35 +106,35 @@ $(document).ready(function() {
 });
 
 $(".navigation-link-1").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-1.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-1-37c64b77.jpg)" });
 });
 
 $(".navigation-link-2").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-2.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-2-bbc16fb6.jpg)" });
 });
 
 $(".navigation-link-3").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-3.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-3-249e9433.jpg)" });
 });
 
 $(".navigation-link-4").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-4.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-4-85be5e86.jpg)" });
 });
 
 $(".navigation-link-5").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-5.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-5-2358f9b6.jpg)" });
 });
 
 $(".navigation-link-6").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-6.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-6-ecf84abe.jpg)" });
 });
 
 $(".navigation-link-7").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-7.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-7-246ea116.jpg)" });
 });
 
 $(".navigation-link-8").hover(function() {
-  $(".project-preview").css({ "background-image": "url(./images/img-8.jpg)" });
+  $(".project-preview").css({ "background-image": "url(./images/img-8-084fe695.jpg)" });
 });
 
 // Scrolling Nav
